@@ -1,0 +1,26 @@
+{
+  "name": "avvai",
+  "version": "1.0.0",
+  "description": "Tamil language processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manikandants/node-avvai.git"
+  },
+  "keywords": [
+    "Tamil",
+    "NLP",
+    "Tamilarnadu",
+    "Indic",
+    "Natural Language Processing"
+  ],
+  "author": "Manikandan TS <manikandan.citeee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manikandants/node-avvai/issues"
+  },
+  "homepage": "https://github.com/manikandants/node-avvai#readme"
+}

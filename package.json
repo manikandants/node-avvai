@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/manikandants/node-avvai/issues"
   },
-  "homepage": "https://github.com/manikandants/node-avvai#readme"
+  "homepage": "https://github.com/manikandants/node-avvai#readme",
+  "dependencies": {}
 }

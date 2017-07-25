@@ -6,13 +6,12 @@ var ezhuthukkalJson = fs.readFileSync(__dirname + '/ezhuthukkal.json', 'utf8');
 
 var tamizhezhuthukkal = JSON.parse(ezhuthukkalJson);
 
-exports.ezhuthukkal = (varthai) => {
+const ezhuthukkal = (varthai) => {
   var ezhuthukkal = [];
   var sutten = 0;
   var empty = true;
   while(sutten < varthai.length) {
     var ezhuthu = varthai[sutten];
-    console.log(varthai);
     if ((tamizhezhuthukkal.uyir.indexOf(ezhuthu) >= 0) ||
       (tamizhezhuthukkal.aidham === ezhuthu) ||
       (tamizhezhuthukkal.meiAgaram.indexOf(ezhuthu) >= 0) ||
@@ -42,3 +41,10 @@ exports.ezhuthukkal = (varthai) => {
   }
   return ezhuthukkal;
 };
+
+const ezhuthukkalNeelam = (varthai) => {
+  return ezhuthukkal(varthai).length;
+};
+
+exports.ezhuthukkal = ezhuthukkal;
+exports.ezhuthukkalNeelam = ezhuthukkalNeelam;

@@ -10,6 +10,10 @@ const uyira = (ezhuthu) => {
   return tamizhezhuthukkal.uyir.indexOf(ezhuthu) >= 0;
 };
 
+const aidhama = (ezhuthu) => {
+  return tamizhezhuthukkal.aidham.indexOf(ezhuthu) >= 0;
+};
+
 const meyya = (ezhuthu) => {
   return tamizhezhuthukkal.mei.indexOf(ezhuthu) >= 0;
 };
@@ -65,6 +69,7 @@ const ezhuthukkalNeelam = (varthai) => {
 exports.ezhuthukkal = ezhuthukkal;
 exports.ezhuthukkalNeelam = ezhuthukkalNeelam;
 exports.uyira = uyira;
+exports.aidhama = aidhama;
 exports.meyya = meyya;
 exports.uyirmeyya = uyirmeyya;
 exports.granthama = granthama;
